@@ -722,35 +722,261 @@
 // console.log(sum)
 
 
-let students = [
-  {name:"Rafi", marks:80},
-  {name:"Sadia", marks:45},
-  {name:"Nila", marks:90},
-  {name:"Imran", marks:55}
-];
+// let students = [
+//   {name:"Rafi", marks:80},
+//   {name:"Sadia", marks:45},
+//   {name:"Nila", marks:90},
+//   {name:"Imran", marks:55}
+// ];
 
-let filtered = []
+// let filtered = []
 
-for(let s of students){
-  if(s.marks>=50){
-    filtered.push(s)
-  }
+// for(let s of students){
+//   if(s.marks>=50){
+//     filtered.push(s)
+//   }
+// }
+// console.log(filtered)
+
+// for(let i = 0 ;i<filtered.length;i++){
+//   for(let j = i+1 ; j<filtered.length;j++){
+//     if(filtered[i].marks<filtered[j].marks){
+//       let temp = filtered[i]
+//       filtered[i] = filtered[j]
+//       filtered[j] = temp
+//     }
+//   }
+// }
+// console.log(filtered)
+
+// let names = []
+// for(let s of filtered){
+//   names.push(s.name)
+// }
+// console.log(names)
+
+
+// let students = [
+//   { name: "Rafi", marks: 85, skills: ["JS", "HTML"] },
+//   { name: "Sadia", marks: 45, skills: ["CSS"] },
+//   { name: "Nila", marks: 90, skills: ["JS", "React", "HTML"] },
+//   { name: "Imran", marks: 60, skills: ["JS"] }
+// ];
+
+// let filtered = []
+// let total = 0
+// let skilledList =[]
+// let reverse = ''
+// let name1 = []
+
+// for(let s of students){
+//   if(s.marks>=50){
+   
+//     filtered.push(s)
+//      total += s.marks
+//   }
+//   for(let sk of s.skills){
+//     if(sk === "JS"){
+//       skilledList.push(s.name)
+//     }
+//   }
+//   for(let rv of s.name){
+//     reverse =rv+reverse
+//   }
+//   name1.push(reverse)
+  
+// }
+// console.log(filtered)
+
+// for(let i = 0 ; i<filtered.length;i++){
+//   for(let j = i+1;j<filtered.length;j++){
+//     if(filtered[i].marks<filtered[j].marks){
+//       let temp = filtered[i]
+//       filtered[i] = filtered[j]
+//       filtered[j] = temp
+//     }
+//   }
+// }
+// console.log(filtered)
+// console.log(total)
+// console.log(skilledList)
+// console.log("Reverse",reverse)
+
+
+// let marks = [78,85,92]
+// let sum = 0
+
+
+// for(let m of marks){
+//   sum+=m
+
+
+
+// }
+// console.log(sum)
+// let total = sum/marks.length
+// console.log(total)
+// if(total>=90){
+//   console.log('goldenA+')
+// }
+// else if(total>=80){
+//   console.log("A+")
+// }
+
+// else if(total>=70){
+//   console.log("c")
+// }
+
+// else if(total<70){
+//   console.log("D")
+// }
+
+
+
+// let numbers = [10, 23, 36, 41, 52];
+// let evenCount = []
+// let oddCount = []
+
+// for(let n of numbers){
+//   if(n%2===0){
+//     evenCount.push(n)
+//   }
+//   else{
+//     oddCount.push(n)
+//   }
+// }
+// console.log(evenCount)
+// console.log(oddCount)
+
+// let numbers = [8, 15, 3, 22, 10];
+//  let max = numbers[0]
+//  let min = numbers[0]
+
+
+//  for(let n of numbers){
+//   if(n>max){
+//     max= n
+//   }
+//   else if(n<min){
+//     min= n
+//   }
+//  }
+
+//  console.log(max)
+//  console.log(min)
+
+//  let differ = max-min
+//  console.log(differ)
+
+// let array = [1, 2, 3, 4, 5];
+// let reverse = []
+
+// for(let n of array){
+//   //reverse = n+reverse
+//   reverse.unshift(n)
+// }
+// console.log(reverse)
+
+
+// let arr2 = [29, 10, 14, 37, 13];
+
+// for(let i = 0 ; i<arr2.length;i++){
+//   for(let j = i+1;j<arr2.length;j++){
+//     if(arr2[i]>arr2[j]){
+//       let temp = arr2[i]
+//       arr2[i]=arr2[j]
+//       arr2[j]=temp
+//     }
+//   }
+// }
+
+// console.log(arr2)
+
+// let fruits = ["apple", "banana", "cherry", "kiwi"];
+// let maxWord = fruits[0]
+// let longestWord= ""
+
+// for(let n of fruits){
+//   console.log(n.length,n)
+//   if(n.length>maxWord.length){
+//     maxWord = n.length
+//     longestWord =n
+//   }
+// }
+
+// console.log(`Maximum length ${maxWord}`)
+// console.log(longestWord)
+
+
+// let str = "javascript";
+// let charToCount = "a";
+// let count = 0;
+// for(let n of str){
+//   if(n === charToCount){
+//     count++
+//   }
+// }
+
+// console.log(count)
+
+// let words = ["hello", "world", "js"];
+
+// let combined = ''
+
+// for(let n of words){
+//   combined+=n+' '
+// }
+
+// console.log(combined.toUpperCase())
+
+
+// let mixed = [5, "hello", 12, "js", 7, "world"];
+// let numbersSum = 0;
+// let stringsCombined = "";
+
+// for(let n of mixed){
+//   if (typeof n === 'number'){
+//     numbersSum+=n
+//   }
+
+//   else if(typeof n === 'string'){
+//     stringsCombined+=n.toUpperCase()+' '
+//   }
+// }
+// console.log(numbersSum)
+// console.log(stringsCombined)
+
+
+// let words = ["apple", "banana", "kiwi", "strawberry"];
+
+// let maxLength = words[0]
+// let longWord = '' 
+
+
+// for(let n of words){
+//   if(n>maxLength){
+//     maxLength = n.length
+//     longWord = n
+//   }
+// }
+
+// console.log(`max length is ${maxLength}`)
+// console.log(`Longest word is ${longWord}`)
+
+
+// let sentence = "I love JavaScript";
+// let reverse = [];
+
+// for(let s of sentence){
+//   //reverse = s+reverse
+//   reverse.unshift(s)
+// }
+
+// console.log(reverse)
+
+let arr = [2, 4, 6, 8];
+
+for(let n of arr){
+ let sqr = n*n
+ console.log(sqr)
 }
-console.log(filtered)
-
-for(let i = 0 ;i<filtered.length;i++){
-  for(let j = i+1 ; j<filtered.length;j++){
-    if(filtered[i].marks<filtered[j].marks){
-      let temp = filtered[i]
-      filtered[i] = filtered[j]
-      filtered[j] = temp
-    }
-  }
-}
-console.log(filtered)
-
-let names = []
-for(let s of filtered){
-  names.push(s.name)
-}
-console.log(names)
