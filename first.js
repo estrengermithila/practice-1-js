@@ -1001,3 +1001,53 @@
 // }
 
 // console.log(rev)
+
+// let text = "education";
+// let vowels = "aeiou";
+
+// for(let n of text){
+//   if(vowels.includes(n)){
+//     console.log(n)
+//   }
+// }
+
+// let nums = [-3, 4, -1, 6, 0, 2];
+
+// for(let n of nums){
+//   if(n>0){
+//     console.log(n)
+//   }
+// }
+
+
+// let students = [
+//     { name: "Rafi", marks: 78 },
+//     { name: "Sadia", marks: 45 },
+//     { name: "Nila", marks: 92 },
+//     { name: "Imran", marks: 50 }
+// ];
+
+// let total = 0
+
+// for(let n of students){
+//   if(n.marks>=50){
+//     console.log(n.name)
+//     total++
+//   }
+// }
+
+// console.log(total)
+
+
+// let words = ["JS", "JavaScript", "HTML", "CSS"];
+
+// let maxLength = words[0]
+
+// for(let n of words){
+//   if(n>maxLength){
+//     maxLength = n.length
+//     console.log(`the longest word is ${n}`)
+//   }
+// }
+
+// console.log(maxLength)
