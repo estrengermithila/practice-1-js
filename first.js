@@ -974,9 +974,30 @@
 
 // console.log(reverse)
 
-let arr = [2, 4, 6, 8];
+// let arr = [2, 4, 6, 8];
 
-for(let n of arr){
- let sqr = n*n
- console.log(sqr)
-}
+// for(let n of arr){
+//  let sqr = n*n
+//  console.log(sqr)
+// }
+
+// let str = "javascript";
+// let count = 0;
+// let vCount = 'aeiou'
+
+// for(let n of str){
+//   if(vCount.includes(n)){
+//     count++
+//   }
+// }
+
+// console.log(count)
+
+// let s = "hello";
+// let rev = "";
+
+// for(let n of s){
+//   rev = n+rev
+// }
+
+// console.log(rev)
