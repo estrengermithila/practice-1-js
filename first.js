@@ -1094,16 +1094,116 @@
 // console.log(total)
 
 
-let text = "education";
-let vowels = "aeiou";
-let isVowel = false
+// let text = "education";
+// let vowels = "aeiou";
+// let isVowel = false
 
 
-for(let n of text){
-  if(vowels.includes(n)){
-    isVowel = true
+// for(let n of text){
+//   if(vowels.includes(n)){
+//     isVowel = true
    
-  }
-}
+//   }
+// }
 
-console.log(isVowel)
+// console.log(isVowel)
+
+
+// let transactions = [
+//   { type: "income", amount: 500 },
+//   { type: "expense", amount: 200 },
+//   { type: "income", amount: 300 },
+//   { type: "expense", amount: 150 }
+// ];
+
+
+// let income =0
+// let expense =0
+
+// for(let n of transactions){
+//   if(n.type === 'income'){
+//     income+=n.amount
+//   }
+//   else{
+//     expense+=n.amount
+//   }
+// }
+
+// console.log(income)
+// console.log(expense)
+
+// let finalBalanace = income-expense
+
+// console.log(finalBalanace)
+
+
+// let nums = [1,2,3,2,4,5,1,6];
+
+// let unique = []
+
+// for(let n of nums){
+//   if(!unique.includes(n)){
+//     unique.push(n)
+//   }
+// }
+
+// console.log(unique)
+
+
+// let employees = [
+//   { name: "Rafi", salary: 18000 },
+//   { name: "Nila", salary: 25000 },
+//   { name: "Imran", salary: 15000 }
+// ];
+// let update = []
+
+
+// for(let n of employees){
+//   let newSalary = n.salary
+//   if(n.salary<20000){
+//     newSalary+=n.salary*0.20
+    
+
+//   }
+//   else{
+//     newSalary+=n.salary*0.1
+//   }
+//   update.push({
+//     name:n.name,
+//     salary:newSalary
+//   })
+// }
+
+// console.log(update)
+
+
+// let employees = [
+//   { name: "Rafi", salary: 12000 },
+//   { name: "Nila", salary: 20000 },
+//   { name: "Imran", salary: 30000 }
+// ];
+
+// let update = []
+
+// for(let n of employees){
+//   let bonus = 0
+
+//   if(n.salary<15000){
+//     bonus=n.salary*0.3
+//   }
+//   else if(n.salary>=15000 && n.salary<25000){
+//     bonus=n.salary*0.15
+//   }
+//   else if(n.salary>=25000){
+//     bonus=n.salary*0.8
+//   }
+
+//   update.push({
+//     name:n.name,
+//     salary:n.salary+bonus
+//   })
+// }
+
+// console.log(update)
+
+
