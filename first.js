@@ -1051,3 +1051,59 @@
 // }
 
 // console.log(maxLength)
+
+
+
+// let employees = [
+//     { name: "A", salary: 20000 },
+//     { name: "B", salary: 25000 },
+//     { name: "C", salary: 30000 }
+// ];
+
+// let totalSalary = 0
+
+// for(let n of employees){
+//   totalSalary+=n.salary
+// }
+
+// console.log(totalSalary)
+
+
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let unique = [];
+
+// for(let n of arr){
+//   if(!unique.includes(n)){
+//     unique.push(n)
+//   }
+// }
+// console.log(unique)
+
+
+// let cart = [
+//     { name: "Pen", price: 10, qty: 3 },
+//     { name: "Book", price: 120, qty: 2 }
+// ];
+
+// let total = 0;
+
+// for(let n of cart){
+//   total+=n.price*n.qty
+// }
+
+// console.log(total)
+
+
+let text = "education";
+let vowels = "aeiou";
+let isVowel = false
+
+
+for(let n of text){
+  if(vowels.includes(n)){
+    isVowel = true
+   
+  }
+}
+
+console.log(isVowel)
