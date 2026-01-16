@@ -1246,3 +1246,31 @@
 //   finalScore += student.schoolGrade;
 
 // }
+
+
+// function isEligibleVoter(voter){
+//     if(typeof voter !== 'object'){
+//         return "invalid voter"
+//     }
+//     let hasNID= false
+//     const {name,age,hasNID} = voter
+//     for(let n of voter){
+//         if(n.age>=18){
+//             hasNID = true
+//         }
+//     }
+// }
+
+
+// function calculateBonus(employee){
+//     if(typeof employee !== 'object' || typeof employee === null){
+//         return "Invalid Input"
+//     }
+
+//     const {name,basicSalary,performanceRating} = employee
+
+//     if(name !== 'string' && basicSalary !== 'number' && performanceRating !== 'number'){
+//          return "Invalid Input"
+//     }
+// }
+
