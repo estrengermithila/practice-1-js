@@ -1206,5 +1206,43 @@
 
 // console.log(update)
 
+// let nums = [1,0,2,0,3,0,4];
+// let result = [];
 
-console.log("hello world")
+// for (let n of nums) {
+//   if (n !== 0) {
+//     result.push(n);
+//   }
+// }
+// console.log(result)
+// let zeroCount = nums.length - result.length;
+// for (let i = 0; i < zeroCount; i++) {
+//   result.push(0);
+// }
+
+// console.log(result);
+
+
+// function checkDigitsInName(name) {
+//     if(typeof name !== 'string'){
+//         return "invalid input"
+//     }
+//        for(let n of name){
+//         if (n >= '0' && n <= '9'){
+//             return true
+//         }
+     
+//        }  
+//        return false
+// }
+// console.log(checkDigitsInName("!@#"))
+
+// function calculateFinalScore(student){
+//     if(typeof student !== 'object'){
+//         return "Invalid Input"
+//     }
+//     let finalScore =0 
+//     finalScore += student.testScore;
+//   finalScore += student.schoolGrade;
+
+// }
