@@ -1274,3 +1274,25 @@
 //     }
 // }
 
+function calculateCartTotal(cart){
+    if(!Array.isArray(cart)){
+        return "Invalid Input"
+
+    }
+
+    let total = 0
+    
+    for(let item of cart){
+       if(typeof item.name === 'string' && typeof item.price === 'number' && typeof item.quantity === 'number'){
+        total+=item.price*item.quantity
+    }
+    
+    }
+    return total
+
+}
+
+console.log(calculateCartTotal([
+  { name: "Shirt", price: 500, quantity: 2 },
+  { name: "Pant", price: 800, quantity: 1 }
+]));
