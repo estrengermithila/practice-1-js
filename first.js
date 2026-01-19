@@ -1274,25 +1274,65 @@
 //     }
 // }
 
-function calculateCartTotal(cart){
-    if(!Array.isArray(cart)){
-        return "Invalid Input"
+// function calculateCartTotal(cart){
+//     if(!Array.isArray(cart)){
+//         return "Invalid Input"
 
-    }
+//     }
 
-    let total = 0
+//     let total = 0
     
-    for(let item of cart){
-       if(typeof item.name === 'string' && typeof item.price === 'number' && typeof item.quantity === 'number'){
-        total+=item.price*item.quantity
-    }
+//     for(let item of cart){
+//        if(typeof item.name === 'string' && typeof item.price === 'number' && typeof item.quantity === 'number'){
+//         total+=item.price*item.quantity
+//     }
     
-    }
-    return total
+//     }
+//     return total
 
-}
+// }
 
-console.log(calculateCartTotal([
-  { name: "Shirt", price: 500, quantity: 2 },
-  { name: "Pant", price: 800, quantity: 1 }
-]));
+// console.log(calculateCartTotal([
+//   { name: "Shirt", price: 500, quantity: 2 },
+//   { name: "Pant", price: 800, quantity: 1 }
+// ]));
+
+
+// function checkPasswordStrength(password){
+//     if(typeof password !== 'string'){
+//         return "Invalid Input"
+//     }
+
+//     const hasLength = password.length>=8
+//     const hasCapital = /[A-Z]/.test(password);
+//     const hasNumber = /[0-9]/.test(password);
+//     const hasSpecial = /[!@#$%^&*]/.test(password); 
+
+//     return hasLength && hasCapital && hasNumber && hasSpecial
+// }
+
+// console.log(checkPasswordStrength("Rahim@123")); // true
+// console.log(checkPasswordStrength("rahim123")); // false
+// console.log(checkPasswordStrength(12345)); // Invalid Input
+
+// function checkAttendance(students){
+//     if(!Array.isArray(students)){
+//         return "Invalid Input"
+//     }
+
+//     const absent = []
+//     for(let n of students){
+//         if(!n.present){
+//             absent.push(n.name)
+//         }
+//     }
+//     return absent
+// }
+
+// console.log(checkAttendance([
+//   { name: "Rahim", present: true },
+//   { name: "Karim", present: false }
+// ]));
+
+
+
