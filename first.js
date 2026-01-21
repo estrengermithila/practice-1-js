@@ -1339,3 +1339,14 @@
 const money = "25"
 const rich = money+25
 console.log(rich)
+
+const numbers = [23,25,26,28,30,32,33]
+numbers[2] = 27
+numbers.push(25)
+console.log(numbers)
+
+function add(num1,num2){
+    return num1+num2
+}
+const result = add(5,2)
+console.log(result)
