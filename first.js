@@ -1351,14 +1351,35 @@
 // const result = add(5,2)
 // console.log(result)
 
-const student ={
-    name:"Mithila",
-    age:22
+// const student ={
+//     name:"Mithila",
+//     age:22
+// }
+
+// student.name="Amily"
+// console.log(student)
+
+
+// const getPi = ()=> Math.PI
+// console.log(getPi())
+
+
+const js = "js"
+const chars = [...js]
+console.log(chars)
+console.log(...js)
+
+
+ let numbers = [23,25,26,28,30,32,33]
+const arrayMax = Math.max(...numbers)
+console.log(arrayMax)
+
+let max = numbers[0]
+
+for(let n of numbers){
+    if(n>max){
+        max=n
+    }
 }
 
-student.name="Amily"
-console.log(student)
-
-
-const getPi = ()=> Math.PI
-console.log(getPi())
+console.log("Max",max)
