@@ -1336,17 +1336,29 @@
 
 
 
-const money = "25"
-const rich = money+25
-console.log(rich)
+// const money = "25"
+// const rich = money+25
+// console.log(rich)
 
-const numbers = [23,25,26,28,30,32,33]
-numbers[2] = 27
-numbers.push(25)
-console.log(numbers)
+// const numbers = [23,25,26,28,30,32,33]
+// numbers[2] = 27
+// numbers.push(25)
+// console.log(numbers)
 
-function add(num1,num2){
-    return num1+num2
+// function add(num1,num2){
+//     return num1+num2
+// }
+// const result = add(5,2)
+// console.log(result)
+
+const student ={
+    name:"Mithila",
+    age:22
 }
-const result = add(5,2)
-console.log(result)
+
+student.name="Amily"
+console.log(student)
+
+
+const getPi = ()=> Math.PI
+console.log(getPi())
