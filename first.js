@@ -1364,22 +1364,48 @@
 // console.log(getPi())
 
 
-const js = "js"
-const chars = [...js]
-console.log(chars)
-console.log(...js)
+// const js = "js"
+// const chars = [...js]
+// console.log(chars)
+// console.log(...js)
 
 
- let numbers = [23,25,26,28,30,32,33]
-const arrayMax = Math.max(...numbers)
-console.log(arrayMax)
+//  let numbers = [23,25,26,28,30,32,33]
+// const arrayMax = Math.max(...numbers)
+// console.log(arrayMax)
 
-let max = numbers[0]
+// let max = numbers[0]
 
-for(let n of numbers){
-    if(n>max){
-        max=n
+// for(let n of numbers){
+//     if(n>max){
+//         max=n
+//     }
+// }
+
+// console.log("Max",max)
+//   let numbers = [23,25,26,28,30,32,33]
+
+//   let nums = [...numbers]
+
+//   nums.push(40,45,50)
+//   console.log(nums)
+
+
+const evenLenghtsName = (friends)=>{
+    let result = []
+
+    for(let name of friends){
+        if(name.length%2===0){
+            result.push(name)
+        }
     }
+    return result
 }
 
-console.log("Max",max)
+let friends = ["Rafi", "Sadia", "Nila", "Imran", "Mithila"];
+
+// Function call
+let output = evenLenghtsName(friends);
+
+// Print result
+console.log(output);
