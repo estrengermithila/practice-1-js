@@ -1567,12 +1567,80 @@
 // }
 // console.log(result)
 
-let numbers = [1, 2, 3, 4];
-let sum = 0;
-for(let n of numbers){
-    // if(n%2===0){
-    //     sum+=n*n
-    // }
-    sum+=n*n
-}
-console.log(sum)
+// let numbers = [1, 2, 3, 4];
+// let sum = 0;
+// for(let n of numbers){
+//     // if(n%2===0){
+//     //     sum+=n*n
+//     // }
+//     sum+=n*n
+// }
+// console.log(sum)
+
+// let students = [
+//     { name: "Rafi", marks: 78 },
+//     { name: "Sadia", marks: 45 },
+//     { name: "Nila", marks: 92 }
+// ];
+
+// for(let n of students){
+//     if(n.marks>=50){
+//         console.log(`${n.name} = pass`)
+//     }
+//     else{
+//         console.log(`${n.name} = fail`)
+//     }
+// }
+
+
+// let cart = [
+//     { name: "Pen", price: 10, qty: 5 },
+//     { name: "Book", price: 120, qty: 2 },
+//     { name: "Bag", price: 450, qty: 1 }
+// ];
+
+// let total = 0;
+
+
+// for(let n of cart){
+//     total+=n.price*n.qty
+// }
+
+// console.log(total)
+
+
+// let employees = [
+//     { name: "Rahim", salary: 30000, exp: 6 },
+//     { name: "Karim", salary: 25000, exp: 4 },
+//     { name: "Salma", salary: 22000, exp: 2 }
+// ];
+// let bonus = 0
+// for (let n of employees){
+
+
+//     if(n.exp>5){
+//         bonus=n.salary*0.20
+//     }
+
+//     else if(n.exp>=3){
+//         bonus=n.salary*0.10
+//     }
+//      console.log(
+//         n.name +
+//         " Bonus: " +
+//         bonus +
+//         " Total Salary: " +
+//         (n.salary + bonus)
+//     );
+// }
+
+// console.log(`${employees.salary}`)
+
+
+// let text = "education";
+// let vowels = "aeiou";
+// for(let n of text){
+//     if(n==vowels){
+//         vowels.pu
+//     }
+// }
