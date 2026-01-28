@@ -1672,3 +1672,38 @@
 // console.log(isAdult({ name: "Raju", age: 20 })); 
 // console.log(isAdult({ name: "Rani", age: 15 }));  // false
 // console.log(isAdult({ name: "Ali", age: "20" }));
+
+// function checkPositiveNumber(value){
+//     if(typeof value!== 'number' && value>=0){
+//         return "Invalid Input"
+//     }
+//    else if(typeof value==="number" && value>=0){
+//         return "Valid Number"
+//     }
+//     else if(value<0){
+//         return "Negative Number"
+//     }
+// }
+
+// console.log(checkPositiveNumber(10));   // Valid Number
+// console.log(checkPositiveNumber(-5));   // Negative Number
+// console.log(checkPositiveNumber("5"));  // Invalid Input
+// console.log(checkPositiveNumber(0));
+
+function validateProduct(product){
+    if(typeof product !== "object" || product === null || Array.isArray(product)){
+        return "Invalid Input"
+    }
+    const {name,price,quantity} = product
+    if(typeof name !== "string" || typeof price !== "number" || typeof quantity !== "number" || price<0 || quantity<0){
+        return "Invalid Input"
+    }
+    else if(typeof name === "string" || price>=0 || quantity>=0){
+        return "Valid Product"
+    }
+}
+
+console.log(validateProduct({ name: "Laptop", price: 1000, quantity: 5 })); // Valid Product
+console.log(validateProduct({ name: "Laptop", price: -100, quantity: 5 }));  // Invalid Input
+console.log(validateProduct(["Laptop", 1000, 5]));                           // Invalid Input
+console.log(validateProduct(null)); 
