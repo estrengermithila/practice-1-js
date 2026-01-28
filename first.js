@@ -1644,3 +1644,31 @@
 //         vowels.pu
 //     }
 // }
+
+// function calculateFinalScore(student){
+
+// }
+
+
+
+// function checkAgeValidity(age){
+//     if(age !== 'number' && age<0){
+//         return "Invalid Input"
+//     }
+//     return "valid Age"
+// }
+
+// let personAge = checkAgeValidity(-25)
+// console.log(personAge)
+
+// function isAdult(person){
+//     const {name,age} = person
+//     if(typeof name!=='string' || typeof age !=='number' || typeof person!=='object'|| age<=0 ||age<18){
+//         return "Invalid Input"
+//     }
+//     return true
+    
+// }
+// console.log(isAdult({ name: "Raju", age: 20 })); 
+// console.log(isAdult({ name: "Rani", age: 15 }));  // false
+// console.log(isAdult({ name: "Ali", age: "20" }));
