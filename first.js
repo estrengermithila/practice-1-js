@@ -1554,15 +1554,25 @@
 // console.log(combinedStr)
 
 
-let fruits2 = ["apple", "banana", "cherry","strawberry"];
-let result = [];
-for(let n of fruits2){
-    for(let ch of n){
-        if(ch==='a'){
-            result.push(n)
-            break
+// let fruits2 = ["apple", "banana", "cherry","strawberry"];
+// let result = [];
+// for(let n of fruits2){
+//     for(let ch of n){
+//         if(ch==='a'){
+//             result.push(n)
+//             break
 
-        }
-    }
+//         }
+//     }
+// }
+// console.log(result)
+
+let numbers = [1, 2, 3, 4];
+let sum = 0;
+for(let n of numbers){
+    // if(n%2===0){
+    //     sum+=n*n
+    // }
+    sum+=n*n
 }
-console.log(result)
+console.log(sum)
