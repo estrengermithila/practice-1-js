@@ -1710,3 +1710,6 @@
 
 let header = document.getElementById("heading");
 console.log(header)
+
+let quSl = document.querySelector("div")
+console.log(quSl.innerHTML)
