@@ -1466,21 +1466,103 @@
 
 // let number = 25
 
-let numbers = [8, 15, 3, 22, 10];
-let max = numbers[0]
-let min = numbers[0]
+// let numbers = [8, 15, 3, 22, 10];
+// let max = numbers[0]
+// let min = numbers[0]
 
-for(let n of numbers){
-    if(n>max){
-        max=n
-    }
-    else if(n<min){
-        min+=n
+// for(let n of numbers){
+//     if(n>max){
+//         max=n
+//     }
+//     else if(n<min){
+//         min+=n
+//     }
+// }
+
+
+// console.log(max)
+// console.log(min)
+// let differ = max-min
+// console.log(differ)
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let reverse = []
+
+// for(let n of arr){
+//     reverse.unshift(n)
+// }
+
+// console.log(reverse)
+
+
+// let matrix = [[3, 5, 9], [12, 4, 7], [1, 8, 6]];
+// let max = matrix[0][0]
+// for(let i = 0 ;i<matrix.length;i++){
+//     for(let j = 0 ; j<matrix.length;j++){
+//         if(matrix[i][j]>max){
+//             max= matrix[i][j]
+//         }
+//     }
+// }
+// console.log(max)
+
+// let words = ["apple", "banana", "kiwi", "strawberry"];
+// let maxLength = 0
+
+// let longestWord= ""
+
+// for(let n of words){
+
+//     if(n>words){
+//         maxLength = n.length
+//         longestWord = n
+//     }
+// }
+
+// console.log(longestWord)
+// console.log(maxLength)
+
+
+// let arr2D = [[2, 3, 4], [5, 6, 7], [8, 9, 10]];
+// let sumEven = 0;
+
+// for(let i = 0 ; i<arr2D.length;i++){
+//     for(let j = 0 ; j < arr2D.length;j++){
+//         if(arr2D[i][j]%2===0){
+//             sumEven+=arr2D[i][j]
+//         }
+//     }
+// }
+
+// console.log(sumEven)
+
+
+// let mixedArr = [10, "JS", 20, "Python", 30];
+// let sumNumbers = 0
+// let combinedStr =  ""
+
+// for(let n of mixedArr){
+//     if(typeof n === 'number'){
+//         sumNumbers+=n
+//     }
+//     else{
+//         combinedStr+=n.toUpperCase()+" "
+//     }
+// }
+// console.log(sumNumbers)
+// console.log(combinedStr)
+
+
+let fruits2 = ["apple", "banana", "cherry","strawberry"];
+let result = [];
+for(let n of fruits2){
+    for(let ch of n){
+        if(ch==='a'){
+            result.push(n)
+            break
+
+        }
     }
 }
-
-
-console.log(max)
-console.log(min)
-let differ = max-min
-console.log(differ)
+console.log(result)
