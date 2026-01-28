@@ -1432,14 +1432,55 @@
 
 
 
-let numbers = [10, 23, 36, 41, 52];
+// let numbers = [10, 23, 36, 41, 52];
+// let evenCount = 0
+// let oddCount = 0
+
+// for(let n of numbers){
+//     if(n%2===0){
+//         //console.log("Even numbers: ",n)
+//         evenCount++
+//     }
+//     else{
+//         //console.log("Odd numbers :",n)
+//         oddCount++
+//     }
+// }
+// console.log(evenCount)
+// console.log(oddCount)
+
+
+
+// let arr = [12, 45, 23, 67, 34];
+// let sum = 0;
+
+// for(let n of arr){
+//     sum+=n
+// }
+// console.log(sum)
+// let total = sum/arr.length
+// console.log(total.toFixed(5))
+
+
+// console.log(number)
+
+// let number = 25
+
+let numbers = [8, 15, 3, 22, 10];
+let max = numbers[0]
+let min = numbers[0]
 
 for(let n of numbers){
-    if(n%2===0){
-        console.log("Even numbers: ",n)
+    if(n>max){
+        max=n
     }
-    else{
-        console.log("Odd numbers :",n)
+    else if(n<min){
+        min+=n
     }
 }
-console.log(n)
+
+
+console.log(max)
+console.log(min)
+let differ = max-min
+console.log(differ)
