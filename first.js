@@ -1708,4 +1708,5 @@
 // console.log(validateProduct(["Laptop", 1000, 5]));                           // Invalid Input
 // console.log(validateProduct(null)); 
 
-//dom
+let header = document.getElementById("heading");
+console.log(header)
