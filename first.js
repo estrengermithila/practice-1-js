@@ -1391,21 +1391,55 @@
 //   console.log(nums)
 
 
-const evenLenghtsName = (friends)=>{
-    let result = []
+// const evenLenghtsName = (friends)=>{
+//     let result = []
 
-    for(let name of friends){
-        if(name.length%2===0){
-            result.push(name)
-        }
+//     for(let name of friends){
+//         if(name.length%2===0){
+//             result.push(name)
+//         }
+//     }
+//     return result
+// }
+
+// let friends = ["Rafi", "Sadia", "Nila", "Imran", "Mithila"];
+
+// // Function call
+// let output = evenLenghtsName(friends);
+
+// // Print result
+// console.log(output);
+
+
+// const findLongestName = (names)=>{
+//     let max = 0
+//     let result = []
+
+//     for(let n of names){
+//         if(n.length>max){
+//             max=n.length
+//             result =[n]
+//         }
+//         else if(n.length===max){
+//             result.push(n)
+//         }
+//     }
+//     return result
+// }
+
+// let friends1 = ["Rafiiiiiii", "Sadia", "Mithila", "Imran", "Ahmedullah"];
+// console.log(findLongestName(friends1));
+
+
+
+let numbers = [10, 23, 36, 41, 52];
+
+for(let n of numbers){
+    if(n%2===0){
+        console.log("Even numbers: ",n)
     }
-    return result
+    else{
+        console.log("Odd numbers :",n)
+    }
 }
-
-let friends = ["Rafi", "Sadia", "Nila", "Imran", "Mithila"];
-
-// Function call
-let output = evenLenghtsName(friends);
-
-// Print result
-console.log(output);
+console.log(n)
