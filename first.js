@@ -1727,6 +1727,11 @@ let quSl = document.querySelector("div")
 // console.log(validateProduct(["Laptop", 1000, 5]));                           // Invalid Input
 // console.log(validateProduct(null)); 
 
+// console.log(validateProduct({ name: "Laptop", price: 1000, quantity: 5 })); // Valid Product
+// console.log(validateProduct({ name: "Laptop", price: -100, quantity: 5 }));  // Invalid Input
+// console.log(validateProduct(["Laptop", 1000, 5]));                           // Invalid Input
+// console.log(validateProduct(null)); 
+
 console.log(validateProduct({ name: "Laptop", price: 1000, quantity: 5 })); // Valid Product
 console.log(validateProduct({ name: "Laptop", price: -100, quantity: 5 }));  // Invalid Input
 console.log(validateProduct(["Laptop", 1000, 5]));                           // Invalid Input
