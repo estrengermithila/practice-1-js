@@ -14,7 +14,8 @@
             <li>Orange</li>
             <li>Banana</li>
         </ul>
-        <ul>
+        <section class="name-container">
+            <ul>
             <h1 id="names">The names i like most</h1>
             <li class="important-places">Mithila</li>
             <li class="important-places">Amily</li>
@@ -22,6 +23,7 @@
             <li class="important-places">Farjana</li>
             <li class="important-places">Mitu</li>
         </ul>
+        </section>
     </div>
     <h1 id="heading">Mithila</h1>
     
@@ -41,6 +43,13 @@
     }
     
     console.log(className)
+    //console.log(document.querySelectorAll('.name-container li'))
+    const querSlctAll = document.querySelectorAll('.name-container li')
+    for(const qsa of querSlctAll){
+        console.log(qsa.innerText)
+    }
+    const querSlct = document.querySelector('.name-container li')
+   console.log(querSlct.innerText)
    </script>
 </body>
 </html>
