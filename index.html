@@ -16,11 +16,11 @@
         </ul>
         <ul>
             <h1 id="names">The names i like most</h1>
-            <li>Mithila</li>
-            <li>Amily</li>
-            <li>Zahid</li>
-            <li>Farjana</li>
-            <li>Mitu</li>
+            <li class="important-places">Mithila</li>
+            <li class="important-places">Amily</li>
+            <li class="important-places">Zahid</li>
+            <li class="important-places">Farjana</li>
+            <li class="important-places">Mitu</li>
         </ul>
     </div>
     <h1 id="heading">Mithila</h1>
@@ -32,8 +32,15 @@
         console.log(li.innerText)
     }
     console.log(document.getElementsByTagName('li'))
-    const idName = document.getElementById('names')
+    const idName = document.getElementById('names').innerText='My favorites name'
     console.log(idName)
+    const className = document.getElementsByClassName('important-places')
+    
+    for(cl of className){
+        console.log(cl.innerText)
+    }
+    
+    console.log(className)
    </script>
 </body>
 </html>
